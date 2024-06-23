@@ -19,7 +19,7 @@ public class WebbanhangApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
 						.allowedMethods("*")
-						.allowedOrigins("http://localhost:3000/", "https://web-cosmetics-full-5oe2aop09-homyhans-projects.vercel.app/")
+						.allowedOrigins("http://localhost:3000/", "https://web-cosmetics-full.vercel.app/", "https://web-cosmetics-full-5oe2aop09-homyhans-projects.vercel.app/")
 						;
 			}
 		};
